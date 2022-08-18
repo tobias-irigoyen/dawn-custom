@@ -64,7 +64,8 @@
                       {{ block.settings.heading | default: block.settings.page.title }}
                       <span>{{ section.settings.pepe }}.svg</span>
                       <img src="{{ section.settings.pepe | file_url }}" />
-                      {{ section.settings.pepe | placeholder_svg_tag }}
+                      {{ 'icon-delivery' | placeholder_svg_tag }}
+                  
                       
                       {{ section.settings.pepe | asset_url | img_tag }}
                         

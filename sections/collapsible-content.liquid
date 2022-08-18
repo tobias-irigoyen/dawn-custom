@@ -63,10 +63,10 @@
                     <h3 class="accordion__title h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
                       <span>{{ section.settings.pepe }}.svg</span>
-                      <img src="{{ section.settings.pepe | asset_url: format: 'svg'}}" />
+                      <img src="{{ section.settings.pepe | append:string2 | asset_url: format: 'svg'}}" />
                       {% render 'icon-accordion', icon: section.settings.pepe %}
                       {% assign string1 = 'foo' %}
-                      {% assign string2 = ' bar baz!' %}
+                      {% assign string2 = 'svg' %}
                       {{ section.settings.pepe | append:string2 }}
                         
                 

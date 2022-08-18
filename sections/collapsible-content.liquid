@@ -65,6 +65,7 @@
                       <span>{{ section.settings.pepe }}.svg</span>
                       <img src="{{ section.settings.pepe | file_url }}" />
                       {{ 'icon-delivery' | placeholder_svg_tag }}
+                      {% render 'icon-accordion', icon: section.settings.pepe %}
                   
                       
                       {{ section.settings.pepe | asset_url | img_tag }}

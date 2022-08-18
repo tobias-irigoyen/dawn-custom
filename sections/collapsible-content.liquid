@@ -64,13 +64,6 @@
                       {{ block.settings.heading | default: block.settings.page.title }}
                       <span>{{ section.settings.pepe }}.svg</span>
 
-                      <div>                                                
-                        {% render 'icon-accordion', icon: section.settings.pepe %}
-                        <h2>{{ section.settings.blockTitle | escape }}</h2>
-                        <a>{{ section.settings.blockSubtitle | escape }}</a>
-              
-                        
-                      </div>
                       
                       
               
@@ -92,6 +85,11 @@
       </div>
     </div>
   </div>
+                      <div class="blockContainer">                                                
+                        {% render 'icon-accordion', icon: section.settings.pepe %}
+                        <h2>{{ section.settings.blockTitle | escape }}</h2>
+                        <a>{{ section.settings.blockSubtitle | escape }}</a>            
+                      </div>
 </div>
 
 {% schema %}

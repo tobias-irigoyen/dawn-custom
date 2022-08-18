@@ -157,32 +157,16 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
+          "ce35c2d4-072b-410c-ba6b-ac28495aa40e": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "My Beautiful Footer",
+              "subtext": ""
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "ce35c2d4-072b-410c-ba6b-ac28495aa40e"
         ],
         "settings": {
           "color_scheme": "background-1",

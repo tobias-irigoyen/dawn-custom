@@ -62,7 +62,7 @@
                     {% render 'icon-accordion', icon: block.settings.icon %}
                     <h3 class="accordion__title h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
-              <span>{{ block.settings.icon }}.svg</span>
+              <span>{{ section.settings.pepe }}.svg</span>
               
                 
                     </h3>
@@ -158,6 +158,26 @@
         }
       ],
       "default": "none"
+    },
+    {
+      "type": "select",
+      "id": "pepe",
+      "label": "PEPE?",
+      "options": [
+        {
+          "value": "PEPE 1",
+          "label": "PEPE 1"
+        },
+        {
+          "value": "PEPE 2",
+          "label": "PEPE 2"
+        },
+        {
+          "value": "PEPE 3",
+          "label": "PEPE 3"
+        }
+      ],
+      "default": "PEPE 3"
     },
     {
       "type": "select",

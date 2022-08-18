@@ -62,7 +62,9 @@
                     {% render 'icon-accordion', icon: block.settings.icon %}
                     <h3 class="accordion__title h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
-              {{ block.settings.icon }}
+              <span>{{ block.settings.icon }}.svg</span>
+              
+                
                     </h3>
                     {% render 'icon-caret' %}
                   </summary>

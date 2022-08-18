@@ -385,7 +385,9 @@
                 alt: logo_alt
               }}
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              <span class="h2">
+                <img src="{{ 'logo.svg' | asset_url }}" class="header__heading-logo" height= "{{logo_height}}" width="{{section.settings.logo_width}}" alt="{{logo_alt}}" />
+              </span>
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -624,6 +626,9 @@
         {%- endif -%}
       </a>
     </div>
+    <!--h1 class="test-title">Elegant Developers</h1>
+    <h2 class="test-title2">Only working at fsl</h2>
+    <h2 class="test-title3">Fast Delivery Schedules</h2-->
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 

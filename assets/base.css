@@ -2955,3 +2955,151 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+
+/* Custom CSS */ 
+
+@font-face {
+  font-family: 'Cambay Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cambay Regular'), url('Cambay-Regular.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Cambay Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cambay Bold'), url('Cambay-Bold.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Domine Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Domine Regular'), url('Domine-Regular.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Domine Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Domine Bold'), url('Domine-Bold.woff2') format('woff2');
+  }
+  @font-face {
+  font-family: 'Playfair Display Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Playfair Display Regular'), url('PlayfairDisplay-Regular.woff2') format('woff2');
+  }
+
+
+  .test-title {
+    font-family: 'Playfair Display Regular';
+    font-size: 6rem;
+    display: block;
+  }
+  .test-title2 {
+    font-family: 'Cambay Regular';
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: block;
+  }
+  .test-title3 {
+    font-family: 'Domine Bold';
+    font-size: 2rem;
+    display: block;
+  }
+
+  /* Header */
+
+  /*
+  #Banner-template--14331566325893__image_banner .banner__media.media {
+    overflow: visible;
+    background-color: #D8BE8C;
+  }
+  #Banner-template--14331566325893__image_banner .banner__media.media img {
+    height: 350px;
+    object-fit: initial;
+    width: auto;
+    left: 100px;
+    bottom: 0;
+    top: unset;
+  }
+
+  #Banner-template--14331566325893__image_banner .banner__content.banner__content--middle-center.page-width {
+    text-align: left;
+  }
+  */
+  #Banner-template--Banner-template--14331582840965__image_banner .banner__media.media {
+    overflow: visible;
+    background-color: #D8BE8C;
+  }
+  #Banner-template--Banner-template--14331582840965__image_banner .banner__media.media img {
+    height: 350px;
+    object-fit: initial;
+    width: auto;
+    left: 100px;
+    bottom: 0;
+    top: unset;
+  }
+
+  #Banner-template--Banner-template--14331582840965__image_banner .banner__content.banner__content--middle-center.page-width {
+    text-align: left;
+  }
+
+  
+
+  #Banner-template--14331582840965__image_banner {
+    color: red!important
+  }
+
+    #Banner-template--14331582840965__image_banner .banner__box {
+    text-align: left;
+    margin-left: 250px;
+  }
+
+
+  #Banner-template--14331582840965__image_banner {
+    min-height: unset;
+  }
+
+  .banner__media.media.placeholder {
+    background-color: #D8BE8C;
+    background-image: url(./header-picture-01.png);
+    background-size: auto 375px;
+    background-repeat: no-repeat;
+    background-position: 15% 10px;
+  }
+  
+  #Banner-template--14331582840965__image_banner::after {
+    content: none!important;
+  }  
+  .banner__media.media.placeholder svg {
+    display: none;
+  }
+
+
+  #Banner-template--14331582840965__image_banner .banner__box .banner__heading {
+    color: #000;
+    font-size: 4.8rem;
+    font-family: 'Playfair Display Regular'
+  }
+
+  #Banner-template--14331582840965__image_banner .banner__box .body {
+    color: #000;
+    font-family: "Cambay Regular";
+    font-size: 1.75rem;
+    text-transform: uppercase;
+  }
+
+  #Banner-template--14331582840965__image_banner .banner__box .banner__buttons a::before,
+  #Banner-template--14331582840965__image_banner .banner__box .banner__buttons a::after {
+    content: none;
+  }
+  #Banner-template--14331582840965__image_banner .banner__box .banner__buttons a {
+    box-shadow: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: "Cambay Bold";
+    font-size: 1.75rem;
+    text-transform: uppercase;
+  }
